@@ -36,7 +36,7 @@ Existe un método llamado, general o por inspección, el cual el número mínimo
 El método de la corriente de lazo es una variación del método de la corriente de malla, un lazo es cualquier trayectoria cerrada alrededor de un circuito. Para formar un lazo, se comienza en la terminal de algún componente y se traza un camino a través de elementos conectados hasta llegar nuevamente al punto de partida.
 Usamos las mallas de un circuito para generar las ecuaciones establecidas de LVK. La corriente de lazo designa una corriente que fluye únicamente alrededor de un lazo. 
 
-![](imagenes/mapa del lab2.png)
+![](https://github.com/AxelHerrera4/INFORME-LABORATORIO-2/blob/1b244cbf74fcb54ed945d27fe93aecf23668e3ff/imagenes/mapa%20del%20lab2.png)
 
 3) Explicacion del procedimiento
 
