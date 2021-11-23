@@ -46,6 +46,8 @@ Se identifica las tres mallas, o las trayectorias cerradas que no encierran ning
 
 Prtimeramente se va a rmar el circuito en el simulador, y conseguimos los voltajes y corrientes mediante la medicion con el multimetro en las conexiones que se deben realziar voltaje en paraleleo y corrientes en serie. En los calculos se debe cocalculas el voltaje total el que aliemtna a todo el circuito y despues su intensidad de corrientes, y asi obtener los voltajes y corrientes de cada malla establecida.
 
+![](imagenes/circuito.png)
+
 
 Calculo de la priemera malla:
 
@@ -64,6 +66,8 @@ calculo de la segunda malla:
 
 
 
+
+
 Calculo de la tercera malla:
 
 -V_R4-V_R5-5=0
@@ -71,6 +75,10 @@ Calculo de la tercera malla:
 2590I_3-2200I_2+5=0
 2590I_3=2200I_2-5
 I_3=2200/2590 I_2-5/2590
+
+
+![](imagenes/voltaje.png)
+
 
 
 intensidad 2:
@@ -90,8 +98,22 @@ I_3=0.488 mA
 
 
 
+![](imagenes/intensidad.png)
+
+
+Tabla de resultados obetenidos:
+
+
+![](imagenes/tabla.png)
+
+
 
 4)Calculo de error.
+
+
+
+
+
 
 
 5) video.
