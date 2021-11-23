@@ -47,6 +47,49 @@ Se identifica las tres mallas, o las trayectorias cerradas que no encierran ning
 Prtimeramente se va a rmar el circuito en el simulador, y conseguimos los voltajes y corrientes mediante la medicion con el multimetro en las conexiones que se deben realziar voltaje en paraleleo y corrientes en serie. En los calculos se debe cocalculas el voltaje total el que aliemtna a todo el circuito y despues su intensidad de corrientes, y asi obtener los voltajes y corrientes de cada malla establecida.
 
 
+Calculo de la priemera malla:
+
+18 V-V_R1-V_R2=0
+18-820 I-1000(I_1-I_2 )=0
+18-1820 I_1+1000I_2=0
+1820 I_1=1000I_2+18
+I_1=1000/1820 I_2+18/1820
+
+
+calculo de la segunda malla:
+
+-V_R2-V_R3-V_R4=0
+-1000(I_2-I_1 )-1200I_2-2200(I_2-I_3 )=0
+-4400I_2+1000I_1+2200I_3=0
+
+
+
+Calculo de la tercera malla:
+
+-V_R4-V_R5-5=0
+2200(I_3-I_2 )+390I_3+5=0
+2590I_3-2200I_2+5=0
+2590I_3=2200I_2-5
+I_3=2200/2590 I_2-5/2590
+
+
+intensidad 2:
+
+-4400I_2+1000(1000/1820 I_2+18/1820)+2200(2200/2590 I_2-5/2590)=0
+-4400I_2+549.45I_2+9.89+1868.72I_2-4.24=0
+(-4400+549.45+1868.72) I_2=4.24-9.89
+-1981.82I_2=-5.64
+I_2=(-5.64)/(-1981.82)=2.84 mA
+
+intensidades restantes:
+
+I_1=1000/1820 (2.84*10^(-3)  )+18/1820
+I_1=11.45 mA
+I_3=2200/2590 (2.84*10^(-3) )-5/2590
+I_3=0.488 mA 
+
+
+
 
 4)Calculo de error.
 
@@ -56,7 +99,11 @@ Prtimeramente se va a rmar el circuito en el simulador, y conseguimos los voltaj
 
 6) Conclusiones
 
--El calculo de mallas nos ayuda identificar, cuanta energia fluye dentro de una parte del circuito
+-El calculo de mallas nos ayuda identificar, cuanta energia fluye dentro de una parte del circuito.
+
+-Mediante la simulación virtual logramos observar al momento de conectar el multimetro en serie en cada punto, ver un sucede con la intensidad en cada malla ya que está formado por 3 mallas y cada uno tiene una intensidad distinta de los demás. También logramos ver qué sucede con los voltajes en cada resistencia del mismo la cual la sumatoria en cada malla es cero.
+
+- la ley de corrientes de Kirchoff se cumple para cualquier malla del circuito, aplicando cualquier método de resolución
 
 7) Bibliografia.
 
