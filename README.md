@@ -108,15 +108,17 @@ Tabla de resultados obetenidos:
 
 
 
-4)Calculo de error.
+4)Calculo de error
 
+No existe error alguno por lo que se obtuvo los mismos resultados por lo tanto su porcentaje de error es cero.
 
-
+![](imagenes/error_tabla.png)
 
 
 
 
 5) video.
+
 
 
 6) Conclusiones
